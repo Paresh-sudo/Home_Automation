@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOME AUTOMATION (IoT)</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/switchbox.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body style="background-image:url(Img/bg.jpg)">
+	<div class="header">
+		<h1>
+			<!-- <a href="Signin.html"><img src="img/logo.png"></a> -->
+			HOME AUTOMATION (IoT)
+		</h1>
+	</div>
+
+	<!-- <div class="bar">
+		<div class="menu_btn">
+			&#8801
+		</div>
+			
+		<button onclick="location.href='Signin.html'">LogOut</button>
+	</div> -->
+
+	<!-- sliding MENUBAR -->
+
+	<div class="switchbox">
+		<fieldset>
+			<legend>
+				<input type="button" value="Room1" onclick="">
+				<input type="button" value="Room2" onclick="">
+				<input type="button" value="Room3" onclick="">
+			</legend>	
+
+			<table id="container">
+			</table>
+		</fieldset>
+	</div>
+
+	<div class="footer">
+		<div class="copy">
+			<h4>
+				©NETworkers pvt. ltd.
+				<br>
+				est. 2019
+			</h4>
+		</div>
+		<hr width="50%">
+		<div class="contact">	
+			<h4>
+				Contact Us
+			</h4>
+			<p>Ph.no:</p>
+			<p>Add:</p>
+			<p>E-mail:</p>
+		</div>
+		<div class="social">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-instagram"></a>
+			<a href="#" class="fa fa-android"></a>
+		</div>
+	</div>
+</body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+<script type="text/javascript">
+var config = 
+{
+  apiKey: "******************************",
+  authDomain: "******************************",
+  databaseURL: "******************************",
+  projectId: "******************************",
+  storageBucket: "******************************",
+  messagingSenderId: "******************************",
+  appId: "******************************"
+};
+
+firebase.initializeApp(config);
+var ref=firebase.database().ref();
+</script>
+
+<script src="js/swt_ctrl.js"></script>
+<script src="js/refresh.js"></script>
+</html>

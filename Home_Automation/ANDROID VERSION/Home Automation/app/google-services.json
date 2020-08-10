@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "********",
+    "firebase_url": "**********************",
+    "project_id": "***********************",
+    "storage_bucket": "*********************"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:*****************:android:8a61b85154ec6a2b057881",
+        "android_client_info": {
+          "package_name": "com.firstapp.HomeAutomation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "*****************-i6csq3u1ibogutfcn3hl4laa9p5m9trs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdPghDVchz6lxCuijb7hkRwhSLp1g1Sac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "*****************-q8hjrjg5799lgku483db2q8sntkck1ia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:*****************:android:665b819170dbab10057881",
+        "android_client_info": {
+          "package_name": "com.homeautomation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "*****************-i6csq3u1ibogutfcn3hl4laa9p5m9trs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdPghDVchz6lxCuijb7hkRwhSLp1g1Sac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "*****************-q8hjrjg5799lgku483db2q8sntkck1ia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:*****************:android:8e6c90974841d580057881",
+        "android_client_info": {
+          "package_name": "io.ghyeok.stickyswitchdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "*****************-i6csq3u1ibogutfcn3hl4laa9p5m9trs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdPghDVchz6lxCuijb7hkRwhSLp1g1Sac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "*****************-q8hjrjg5799lgku483db2q8sntkck1ia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,175 @@
+body
+{
+	background-image: linear-gradient(#ffffff, #b6ffee );
+}
+
+.header h1
+{
+	height:125px;
+	background-color:#49d0ff;
+	color:#ffffff;
+	font-size:75px;
+	text-align:center;
+	margin-top:-5px;
+	padding-top:20px;
+	font-family:Verdana;
+	border-width:20px;
+	border-style:solid;
+	border-color:#000000;
+	border-bottom-right-radius:125px;
+	border-top-left-radius:125px;
+}
+
+.header img
+{	
+	float:left;
+	margin-left:50px;
+	height:100px;
+	width:100px;
+	border-radius:100%;
+}
+
+.bar
+{
+	height:30px;
+	padding: 10px;
+	margin-top:-50px;
+	background-color: black;
+}
+
+.bar button
+{
+	float:right;
+	margin-right:10px;
+	background-color:#49d0ff;
+	font-size: 25px;
+	color:black;
+	cursor: pointer;
+	border-color: black;
+	border-radius: 10px;
+	transition:background-color .5s;
+}
+.bar button:hover
+{
+	background-color:#0899ff;
+}
+.bar .menu_btn
+{
+	float:left;
+	color: white;
+	margin-top:-10px;
+	padding-left: 20px;
+	font-size: 45px;
+	cursor:pointer;
+}
+
+.footer
+{
+	text-align: center;
+	background-color:#000000;
+	color:#ffffff;
+	margin-top:50px;
+	padding:5px;
+}
+
+.copy
+{
+	font-size: 15px;
+}
+
+.contact p
+{
+	margin-top:-15px;
+}
+
+.social a
+{
+	text-decoration: none;
+	color: #b6ffee ;
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+
+@media screen and (max-width: 600px)
+{
+	.header h1
+	{
+		height:100%;
+		font-size:20px;
+		text-align:center;
+		margin-top:-5px;
+		padding-top:20px;
+		font-family:Verdana;
+		border-width:10px;
+		border-style:solid;
+		border-bottom-right-radius:25px;
+		border-top-left-radius:25px;
+	}
+	
+	.header img
+	{
+		float:left;
+		height:60px;
+		width:60px;
+		margin-left:10px;
+		margin-top:-15px;
+		border-radius:100%;
+	}
+
+
+	.bar
+	{
+		height:20px;
+		margin-top:-15px;
+		background-color: black;
+	}
+
+	.bar button
+	{
+		height:25px;
+		float:right;
+		margin-right:5px;
+		background-color:#49d0ff;
+		font-size: 15px;
+		color:black;
+		border-color: black;
+		border-radius: 5px;
+	}
+
+	.bar .menu_btn
+	{
+		float:left;
+		color: white;
+		margin-top:0px;
+		padding-left: 0px;
+		font-size: 15px;
+	}
+
+	.footer
+	{
+		text-align: center;
+		background-color:#000000;
+		color:#ffffff;
+		margin-top:25px;
+		padding:2px;
+	}
+
+	.copy
+	{
+		font-size: 15px;
+	}
+
+	.contact p
+	{
+		margin-top:-15px;
+	}
+
+	.social a
+	{
+		text-decoration: none;
+		color: #b6ffee ;
+		font-size: 30px;
+		margin-left: 20px;
+	}
+}

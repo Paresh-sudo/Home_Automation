@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/light"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/shapeo"
+        android:gravity="center"
+        android:text="HOME AUTOMATION (IoT)"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_below="@+id/light"
+        android:id="@+id/r1"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Switch
+
+                android:id="@+id/s1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="false"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:switchPadding="50dp"
+                android:text="SWITCH1:"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:thumb="@drawable/thumb"
+                android:thumbTextPadding="20dp"
+                android:track="@drawable/thumb_track" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_below="@+id/l1"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/s2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="false"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:switchPadding="50dp"
+                android:text="SWITCH2:"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:thumb="@drawable/thumb"
+                android:track="@drawable/thumb_track" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/l2"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/s3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="true"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:switchPadding="50dp"
+                android:text="SWITCH3:"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:thumb="@drawable/thumb"
+                android:track="@drawable/thumb_track" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

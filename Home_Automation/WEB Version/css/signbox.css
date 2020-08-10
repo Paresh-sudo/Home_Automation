@@ -1,0 +1,121 @@
+.signbox
+{
+	margin-top:75px;
+}
+
+.signbox legend
+{
+	margin:auto;
+}
+
+.signbox legend img
+{
+	height:100px;
+	width:100px;	
+	border-radius:50%;
+	border-width:2px;
+	border-color:#000000;
+	transition:background-color .5s;
+}
+
+.signbox fieldset
+{
+	margin:auto;
+	width:25%;
+	border-width:10px;
+	border-top-style:double;
+	border-radius:20px;
+	border-color:#134b5f;
+	background-color:#49d0ff;
+}
+
+.signbox input
+{
+	height:50px;
+	width:100%;
+	margin-top: 10px;
+	font-size: 20px;
+	border-radius: 25px;
+	text-align: left;
+	padding-left: 5px;
+}
+
+.signbox button
+{
+	margin-top: 10px;
+	border-radius: 25px;
+	height:50px;
+	width:150px;
+	background-color: #999999;
+	font-size: 25px;
+	transition:background-color 0.5s;
+}
+.signbox button:hover
+{
+	background-color: #bbbbbb;
+	cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width: 600px)
+{
+	.signbox
+	{
+		margin-top:15%;
+	}
+
+	.signbox legend
+	{
+		margin:auto;
+	}
+
+	.signbox legend img
+	{
+		height:50px;
+		width:50px;	
+		border-radius:50%;
+		border-width:2px;
+		border-color:#000000;
+	}
+
+	.signbox fieldset
+	{
+		margin:auto;
+		width:80%;
+		border-width:10px;
+		border-top-style:double;
+		border-radius:20px;
+		border-color:#134b5f;
+		background-color:#49d0ff;
+	}
+
+	.signbox input
+	{
+		height:25px;
+		width:100%;
+		margin-top: 10px;
+		font-size: 15px;
+		text-align: left;
+		padding-left: 5px;
+		border-radius: 25px;
+	}
+
+	.signbox button
+	{
+		margin-top: 10px;
+		border-radius: 25px;
+		height:25px;
+		width:100px;
+		background-color: #999999;
+		font-size: 15px;		
+		transition:background-color 0.5s;
+	}
+	.signbox button:hover
+	{
+		background-color: #bbbbbb;
+		cursor: pointer;
+	}
+}
